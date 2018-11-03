@@ -1,8 +1,8 @@
-" ============================================================
-" materialmonokai
-" Author: skielbasa
-" Forked From: Mike Hartington's Oceanicnext
-" ============================================================
+" Uses the Monokai theme by https://github.com/skielbasa/vim-material-monokai
+" as base
+
+" Maintainer: https://github.com/DeterminedPanda/vim-material-monokai
+" License: MIT
 
 if ! exists("g:materialmonokai_subtle_airline")
     let g:materialmonokai_subtle_airline = 0
@@ -20,7 +20,7 @@ endif
   let s:base08=['#ec5f67', '203']
   let s:base09=['#FD9720', '208']
   let s:base0A=['#fac863', '221']
-  let s:base0B=['#FC3488', '197']
+  let s:base0B=['#FC3344', '197']
   let s:base0C=['#62b3b2', '73']
   let s:base0D=['#506E79', '241']
   let s:base0E=['#c594c5', '141']
