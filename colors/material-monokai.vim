@@ -1,12 +1,9 @@
-" File:       matrial-monokai.vim
-" Maintainer: skielbasa
-" URL:        https://github.com/skielbasa/vim-monokai
-" License:    MIT
+" Uses the Monokai theme by https://github.com/skielbasa/vim-material-monokai as base
 "
-" A vim port of the Material Monokai Atom theme
-" Uses the Monokai theme by crusoexia as a base
+" Maintainer: https://github.com/DeterminedPanda/vim-material-monokai
+" License: MIT
 
-" Initialisation
+"" Initialisation
 " --------------
 
 if !has("gui_running") && &t_Co < 256
@@ -88,8 +85,10 @@ let s:lightgrey   = { "gui": "#575b61", "cterm": "241" }
 let s:darkgrey    = { "gui": "#232E33", "cterm": "236" }
 let s:coolgrey    = { "gui": "#506E79", "cterm": "241" }
 
-let s:pink        = { "gui": "#FC3488", "cterm": "197" }
-let s:green       = { "gui": "#A6E22E", "cterm": "148" }
+" s:pink value used to be #FC3488
+let s:pink        = { "gui": "#FC3344", "cterm": "197" }
+" s:green value used to be #A6E22E
+let s:green       = { "gui": "#009ace", "cterm": "148" }
 let s:aqua        = { "gui": "#66d9ef", "cterm": "81" }
 let s:blue        = { "gui": "#82B1FF", "cterm": "81" }
 let s:yellow      = { "gui": "#E6DB74", "cterm": "186" }
