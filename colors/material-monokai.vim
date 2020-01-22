@@ -198,7 +198,7 @@ call s:h("Tag",           { "fg": s:pink })
 "        Debug"
 
 call s:h("Todo",          { "fg": s:aqua,     "format": "bold,italic" })
-call s:h("Comment",       { "fg": s:white, "format": "italic" })
+call s:h("Comment",       { "fg": s:coolgrey, "format": "italic" })
 
 call s:h("Underlined",    { "fg": s:green })
 call s:h("Ignore",        {})
